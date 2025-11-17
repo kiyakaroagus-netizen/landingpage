@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        .tombol {
+            padding: 10px 20px;
+            background-color: #651375;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .konten {
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-image: url(../images/adalovelace.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .konten1 {
+            max-width: 50%;
+            color: white;
+        }
+
+        .konten h1 {
+            margin-bottom: 20px;
+        }
+
+        .layanan {
+            padding: 40px 0 60px 0;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .layanan p {
+            font-size: 18px;
+            color: #812f79;
+        }
+
+        .layanan1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            margin-top: 30px;
+        }
+
+        .layanan1 img {
+            width: 300px;
+            border-radius: 0px;
+        }
+
+        .layanan1 ul {
+            list-style: none;
+            text-align: left;
+            font-size: 18px;
+            color: #333;
+            font-style: oblique;
+        }
+
+        .layanan1 li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .isi {
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 50px;
+            background-image: url(../images/ada.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .isi1 {
+            text-align: left;
+        }
+
+        .fakta1 img {
+            align-items: end;
+            width: 300px;
+            border-radius: 0px;
+        }
+
+        /* LAND4 - Facts */
+        .list {
+            position: relative;
+            background-image: url('../images/chart-5-74.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 45%;
+            padding: 60px 100px;
+            background-color: #fff;
+        }
+
+        .list::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to left, rgba(255, 255, 255, 0.8), transparent);
+            z-index: 0;
+        }
+
+        .list-content {
+            position: relative;
+            z-index: 1;
+            max-width: 50%;
+        }
+
+        .list-content h2 {
+            font-size: 30px;
+            color: #812f79;
+            margin-bottom: 20px;
+        }
+
+        .list-content ol {
+            list-style: decimal;
+            color: #333;
+            font-size: 18px;
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        .test {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 100px;
+            background: linear-gradient(to bottom, #711c8b, #1f002b);
+            color: white;
+        }
+
+        .test1 {
+            flex: 1;
+        }
+
+        .test1 h2 {
+            font-size: 28px;
+            line-height: 1.4;
+            font-weight: 400;
+        }
+
+        .test1 span {
+            font-weight: 700;
+        }
+
+        .test2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        form {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        label {
+            font-size: 16px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            border: 2px solid white;
+            background: transparent;
+            color: white;
+            padding: 10px;
+            margin: 10px 0 20px;
+            resize: none;
+        }
+
+        .masukkan {
+            display: flex;
+            gap: 10px;
+        }
+
+        .masukkan input {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid white;
+            background: transparent;
+            color: white;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 40px;
+            background-color: #00c48c;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00e9a3;
+        }
+
+        .foter {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
